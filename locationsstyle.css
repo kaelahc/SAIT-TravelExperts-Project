@@ -1,0 +1,41 @@
+/* -------- LOCATIONS PAGE (Kaelah) ------- */
+.photoblock {
+    background-color: transparent;
+    padding: 5px;
+    margin: 0;
+    width: 98%;
+    text-decoration: none;
+    color: #1b3856;
+  }
+  .card {
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: subgrid;
+  }
+
+  .photoblock img{
+    width: 100%;
+    grid-column: 1;
+  }
+  
+  .cardtext {
+    padding-left: 10px;
+    padding-top: 0px;
+    grid-column: 2;
+    line-height: 25px;
+  }
+
+  .cardprice {
+    grid-column: 3;
+    text-align: center;
+    font-weight: 650;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+  }
