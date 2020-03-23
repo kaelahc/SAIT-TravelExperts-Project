@@ -46,6 +46,11 @@
     justify-content: center;
 }
 
+#contactFooter {
+    position: fixed;
+    text-align: left;
+}
+
 /*-------------------Register Page---------------------*/
 
 .registrationBackgroundImage{
