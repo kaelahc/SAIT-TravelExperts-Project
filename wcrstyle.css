@@ -1,0 +1,73 @@
+/* ---------- Author: Uzezi Okoroze ----------------*/
+
+/*--------------------Welcome Page------------------*/
+
+.welcomePageContent{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 80% 20%;
+    height: 100%;
+}
+
+.welcomePageInfo{
+    margin-left: 300px; 
+    margin-top:200px ;
+    text-justify: auto;
+   
+}
+
+.welcomeBackgroundImage {
+    background-image: url("https://www.cheapoair.com/miles-away/wp-content/uploads/2018/04/Frontier-FAQ-Boarding.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    grid-row: 1;  
+}
+
+.welcomeBottomImages {
+    grid-row: 2;
+    display: flex;
+    flex-direction: row;
+}
+
+.welcomeBottomImages img:hover {
+    transform: scale(1.50);
+}
+
+/*----------------- Contact Page------------------------*/
+
+.contactBackgroundImage {
+    background-image: url("https://www.travelweek.ca/wp-content/uploads/2019/05/Suppliers-say-%E2%80%98Thank-You%E2%80%99-with-long-list-of-Travel-Agent-Day-incentives.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+/*-------------------Register Page---------------------*/
+
+.registrationBackgroundImage{
+    background-image: url("http://airportfocusinternational.com/wp-content/uploads/2017/04/business-travel-image-740x431@2x.jpg");
+    /*("https://www.cheapoair.com/miles-away/wp-content/uploads/2018/04/Frontier-FAQ-Boarding.jpg");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+#form {
+justify-self: auto;
+margin-left: 20px ; 
+background-color: #f1f1f1 ;
+width: 20%;
+height:auto ;
+display: flex;
+}
+
+#registrationBody {
+    position: inherit;
+}
+/*--------------------End-------------------------------*/

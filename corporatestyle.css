@@ -1,4 +1,6 @@
-/* -------- DISNEY PAGE (Kaelah) ------- */
+/* ---------- Author: Kaelah Collins ----------------*/
+
+/* -------- CORPORATE PAGE ------- */
 .photoblock {
     background-color: transparent;
     padding: 5px;
@@ -20,6 +22,7 @@
 
   .photoblock img{
     width: 100%;
+    height: 100%;
     grid-column: 1;
   }
   
@@ -34,6 +37,7 @@
     grid-column: 3;
     text-align: center;
     font-weight: 650;
+    padding: 5px;
   }
 
   .card:hover {

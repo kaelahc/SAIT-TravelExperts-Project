@@ -1,3 +1,4 @@
+// Author: Kaelah Collins
 window.onscroll = function() {myFunction()};
 
 let header = document.getElementById("myHeader");
